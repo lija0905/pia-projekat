@@ -1,0 +1,104 @@
+/* 1 */
+{
+    "_id" : ObjectId("610aeca477712c4bd796c5fe"),
+    "ime" : "Jovana",
+    "prezime" : "Bogdanovic",
+    "korime" : "joca0202",
+    "lozinka" : "jocacarica",
+    "email" : "joca@gmail.com",
+    "drzava" : "Srbija",
+    "tip" : "organizator"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("611ee2672be5de2bf4684308"),
+    "ime" : "Vasilija",
+    "prezime" : "Rasic",
+    "korime" : "lija0905",
+    "lozinka" : "Lija123!%",
+    "email" : "rasicvasilija@gmail.com",
+    "drzava" : "Srbija",
+    "tip" : "vodja delegacije",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("611ee3d9be5b7e309cc458e4"),
+    "ime" : "Darija",
+    "prezime" : "Vidakovic",
+    "korime" : "dara0207",
+    "lozinka" : "Dara123!$",
+    "email" : "dara@gmail.com",
+    "drzava" : "Španija",
+    "tip" : "delegat",
+    "takmicenja" : [ 
+        {
+            "sport" : "atletika",
+            "disciplina" : "100m trcanje",
+            "pol" : "muski"
+        }, 
+        {
+            "sport" : "vaterpolo",
+            "disciplina" : null,
+            "pol" : "muski"
+        }, 
+        {
+            "sport" : "odbojka",
+            "disciplina" : null,
+            "pol" : "zenski"
+        }
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6120d4735e315d11506618ad"),
+    "ime" : "Lazar",
+    "prezime" : "Savic",
+    "korime" : "laki1901",
+    "lozinka" : "Laki123!$",
+    "email" : "laki@gmail.com",
+    "drzava" : "Japan",
+    "tip" : "delegat",
+    "takmicenja" : [ 
+        {
+            "sport" : "atletika",
+            "disciplina" : "skok u vis",
+            "pol" : "zenski"
+        }, 
+        {
+            "sport" : "streljaštvo",
+            "disciplina" : "10m vazdušni pištolj",
+            "pol" : "muski"
+        }
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6120d4745e315d11506618ae"),
+    "takmicenja" : [],
+    "ime" : "Milica",
+    "prezime" : "Simic",
+    "korime" : "mica3108",
+    "lozinka" : "Mica123!$",
+    "email" : "mica@gmail.com",
+    "drzava" : "Španija",
+    "tip" : "vodja delegacije",
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6135295378482a1a04b001e6"),
+    "ime" : "Sofija",
+    "prezime" : "Stojilovic",
+    "korime" : "sofi0309",
+    "lozinka" : "Sofi123!$",
+    "email" : "sofija@gmail.com",
+    "drzava" : "Srbija",
+    "tip" : "delegat",
+    "takmicenja" : []
+}

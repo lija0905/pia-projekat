@@ -1,0 +1,244 @@
+/* 1 */
+{
+    "_id" : ObjectId("6134f29ecc0eaa2ee8f43afe"),
+    "sport" : "atletika",
+    "disciplina" : "100m trcanje",
+    "datum" : "2021-08-01",
+    "vrsta" : "individualni",
+    "pol" : "muski",
+    "lokacija" : "Olimpijski stadion - Traka",
+    "mera" : "CC:MM:SS,TT",
+    "br_pokusaja" : 1,
+    "br_takmicara" : 8,
+    "rezultati" : [ 
+        {
+            "ime" : "Lamont Marcell Jacobs-Italija",
+            "rezultat" : [ 
+                "00:00:09,80"
+            ],
+            "krugovi" : [ 
+                "1"
+            ]
+        }, 
+        {
+            "ime" : "Fred Kerley-SAD",
+            "rezultat" : [ 
+                "00:00:09,83"
+            ],
+            "krugovi" : [ 
+                "1"
+            ]
+        }, 
+        {
+            "ime" : "Andre de Grasse-Kanada",
+            "rezultat" : [ 
+                "00:00:09,85"
+            ],
+            "krugovi" : [ 
+                "1"
+            ]
+        }, 
+        {
+            "ime" : "Akani Simbine-Juzna Afrika",
+            "rezultat" : [ 
+                "00:00:09,93"
+            ],
+            "krugovi" : [ 
+                "1"
+            ]
+        }, 
+        {
+            "ime" : "Ronnie Baker-SAD",
+            "rezultat" : [ 
+                "00:00:09,95"
+            ],
+            "krugovi" : [ 
+                "1"
+            ]
+        }, 
+        {
+            "ime" : "Enoch Adegoke-Nigerija",
+            "rezultat" : [ 
+                "DNF"
+            ],
+            "krugovi" : [ 
+                "1"
+            ]
+        }, 
+        {
+            "ime" : "Zharnel Hughes-Velika Britanija",
+            "rezultat" : [ 
+                "DQ"
+            ],
+            "krugovi" : [ 
+                "1"
+            ]
+        }
+    ],
+    "vreme" : "17:50",
+    "zavrseno" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6134f5c6cc0eaa2ee8f43b00"),
+    "sport" : "atletika",
+    "disciplina" : "skok u vis",
+    "datum" : "2021-08-07",
+    "vrsta" : "individualni",
+    "pol" : "zenski",
+    "lokacija" : "Olimpijski stadion - Skok u vis A",
+    "mera" : "MM,CM",
+    "br_pokusaja" : 3,
+    "br_takmicara" : 8,
+    "rezultati" : [ 
+        {
+            "ime" : "Lasitskene Mariya-ROC",
+            "rezultat" : [ 
+                "01,98", 
+                "02,04", 
+                "02,07"
+            ],
+            "krugovi" : [ 
+                "1", 
+                "2", 
+                "3"
+            ]
+        }, 
+        {
+            "ime" : "McDermott Nicola-Australija",
+            "rezultat" : [ 
+                "01,85", 
+                "02,02", 
+                "01,92"
+            ],
+            "krugovi" : [ 
+                "1", 
+                "2", 
+                "3"
+            ]
+        }, 
+        {
+            "ime" : "Manuchikh Yaroslava-Ukrajina",
+            "rezultat" : [ 
+                "02,00", 
+                "01,86", 
+                "01,87"
+            ],
+            "krugovi" : [ 
+                "1", 
+                "2", 
+                "3"
+            ]
+        }, 
+        {
+            "ime" : "Gerashchenko Iryna-Ukrajina",
+            "rezultat" : [ 
+                "01,88", 
+                "01,98", 
+                "01,90"
+            ],
+            "krugovi" : [ 
+                "1", 
+                "2", 
+                "3"
+            ]
+        }
+    ],
+    "vreme" : "18:00",
+    "zavrseno" : 1
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6135564e4fbfae2bfc3ce884"),
+    "sport" : "streljaštvo",
+    "disciplina" : "10m vazdušni pištolj",
+    "datum" : "2021-07-24",
+    "vrsta" : "individualni",
+    "pol" : "muski",
+    "lokacija" : "Asaka ",
+    "mera" : "",
+    "br_pokusaja" : 6,
+    "br_takmicara" : 8,
+    "rezultati" : [ 
+        {
+            "ime" : "Foroughi Javad-Iran",
+            "rezultat" : [ 
+                "10.8", 
+                "9.8", 
+                "10.2", 
+                "10.4", 
+                "10.5", 
+                "10.1"
+            ],
+            "krugovi" : [ 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6"
+            ]
+        }, 
+        {
+            "ime" : "Mikec Damir-Srbija",
+            "rezultat" : [ 
+                "10.5", 
+                "10.1", 
+                "10", 
+                "10.5", 
+                "10.3", 
+                "9.1"
+            ],
+            "krugovi" : [ 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6"
+            ]
+        }, 
+        {
+            "ime" : "Pang Wei-Kina",
+            "rezultat" : [ 
+                "10.2", 
+                "9.5", 
+                "10.4", 
+                "10.4", 
+                "9.8", 
+                "9.5"
+            ],
+            "krugovi" : [ 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6"
+            ]
+        }, 
+        {
+            "ime" : "Reitz Christian-Nemačka",
+            "rezultat" : [ 
+                "9.6", 
+                "10.8", 
+                "10.7", 
+                "9.8", 
+                "10.2", 
+                "0"
+            ],
+            "krugovi" : [ 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6"
+            ]
+        }
+    ],
+    "vreme" : "13:00",
+    "zavrseno" : 1
+}

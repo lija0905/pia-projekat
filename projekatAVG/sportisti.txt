@@ -1,0 +1,495 @@
+/* 1 */
+{
+    "_id" : ObjectId("6120ecdb8b452d2154334d60"),
+    "ime" : "Dusan Mandic",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6120ed2e8b452d2154334d61"),
+    "ime" : "Novak Djokovic",
+    "sport" : "tenis",
+    "zemlja" : "Srbija",
+    "discipline" : [ 
+        {
+            "naziv" : "singl",
+            "medalja" : " "
+        }, 
+        {
+            "naziv" : "dubl",
+            "medalja" : " "
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("612247039877d240f86fc157"),
+    "ime" : "Dedovic Nikola",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61229cd01a877e1f8010c220"),
+    "ime" : "Randjelovic Sava",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6123fbc164f08435bbe79ff2"),
+    "ime" : "Lamont Marcell Jacobs",
+    "sport" : "atletika",
+    "zemlja" : "Italija",
+    "discipline" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "medalja" : 1
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6123fbc164f08435bbe79ff5"),
+    "ime" : "Fred Kerley",
+    "sport" : "atletika",
+    "zemlja" : "SAD",
+    "discipline" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "medalja" : 2
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6123fbc164f08435bbe79ff8"),
+    "ime" : "Andre de Grasse",
+    "sport" : "atletika",
+    "zemlja" : "Kanada",
+    "discipline" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "medalja" : 3
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6123fbc164f08435bbe79ffb"),
+    "ime" : "Akani Simbine",
+    "sport" : "atletika",
+    "zemlja" : "Juzna Afrika",
+    "discipline" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "medalja" : " "
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6123fbc164f08435bbe79ffe"),
+    "ime" : "Ronnie Baker",
+    "sport" : "atletika",
+    "zemlja" : "SAD",
+    "discipline" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "medalja" : " "
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6123fbc164f08435bbe7a001"),
+    "ime" : "Bingtian Su",
+    "sport" : "Kina",
+    "zemlja" : "Italija",
+    "discipline" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "medalja" : " "
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6123fbc164f08435bbe7a004"),
+    "ime" : "Enoch Adegoke",
+    "sport" : "atletika",
+    "zemlja" : "Nigerija",
+    "discipline" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "medalja" : " "
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6123fbc164f08435bbe7a007"),
+    "ime" : "Zharnel Hughes",
+    "sport" : "atletika",
+    "zemlja" : "Velika Britanija",
+    "discipline" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "medalja" : " "
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6126abb5e3e9550c104362c0"),
+    "ime" : "Djordje Lazic",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6126abe2e3e9550c104362c1"),
+    "ime" : "Pijetlovic Dusko",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6126abf9e3e9550c104362c2"),
+    "ime" : "Rasovic Strahinja",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6126ac09e3e9550c104362c3"),
+    "ime" : "Aleksic Milan",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6126ac13e3e9550c104362c4"),
+    "ime" : "Jaksic Nikola",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6126ac38e3e9550c104362c5"),
+    "ime" : "Filipovic Filip",
+    "sport" : "vaterpolo",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6126ac90e3e9550c104362c6"),
+    "ime" : "Lopez Pinedo Daniel",
+    "sport" : "vaterpolo",
+    "zemlja" : "Španija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 2
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6126acaae3e9550c104362c7"),
+    "ime" : "Munarriz Egana Alberto",
+    "sport" : "vaterpolo",
+    "zemlja" : "Španija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 2
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6126acbee3e9550c104362c8"),
+    "ime" : "Granados Ortega Alvaro",
+    "sport" : "vaterpolo",
+    "zemlja" : "Španija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 2
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6126accce3e9550c104362c9"),
+    "ime" : "Sanahuja Bernat",
+    "sport" : "vaterpolo",
+    "zemlja" : "Španija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 2
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6126acdbe3e9550c104362ca"),
+    "ime" : "de Toro Dominiguez",
+    "sport" : "vaterpolo",
+    "zemlja" : "Španija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 2
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6126acede3e9550c104362cb"),
+    "ime" : "Larumbe Gonfaus Marc",
+    "sport" : "vaterpolo",
+    "zemlja" : "Španija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 2
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6126acf7e3e9550c104362cc"),
+    "ime" : "Famera Martin",
+    "sport" : "vaterpolo",
+    "zemlja" : "Španija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 2
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6126ad0de3e9550c104362cd"),
+    "ime" : "Fernandez Miranda Francisco",
+    "sport" : "vaterpolo",
+    "zemlja" : "Španija",
+    "discipline" : [],
+    "pol" : "m",
+    "osvojena_medalja" : 2
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("612a6bd170b639a7905e4854"),
+    "ime" : "Lasitskene Mariya",
+    "sport" : "atletika",
+    "zemlja" : "ROC",
+    "discipline" : [ 
+        {
+            "naziv" : "skok u vis",
+            "medalja" : 1
+        }
+    ],
+    "pol" : "z",
+    "osvojena_medalja" : 1
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("612a6c4270b639a7905e48aa"),
+    "ime" : "McDermott Nicola",
+    "sport" : "atletika",
+    "zemlja" : "Australija",
+    "discipline" : [ 
+        {
+            "naziv" : "skok u vis",
+            "medalja" : 2
+        }
+    ],
+    "pol" : "z",
+    "osvojena_medalja" : 1
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("612a6c4270b639a7905e48ad"),
+    "ime" : "Manuchikh Yaroslava",
+    "sport" : "atletika",
+    "zemlja" : "Ukrajina",
+    "discipline" : [ 
+        {
+            "naziv" : "skok u vis",
+            "medalja" : 3
+        }
+    ],
+    "pol" : "z",
+    "osvojena_medalja" : 1
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("612a6c4270b639a7905e48b0"),
+    "ime" : "Gerashchenko Iryna",
+    "sport" : "atletika",
+    "zemlja" : "Ukrajina",
+    "discipline" : [ 
+        {
+            "naziv" : "skok u vis",
+            "medalja" : " "
+        }
+    ],
+    "pol" : "z",
+    "osvojena_medalja" : 0
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("612bb6ea70b639a7905fa942"),
+    "ime" : "Foroughi Javad",
+    "sport" : "streljaštvo",
+    "zemlja" : "Iran",
+    "discipline" : [ 
+        {
+            "naziv" : "10m vazdušni pištolj",
+            "medalja" : 1
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("612bb6ea70b639a7905fa945"),
+    "ime" : "Mikec Damir",
+    "sport" : "streljaštvo",
+    "zemlja" : "Srbija",
+    "discipline" : [ 
+        {
+            "naziv" : "10m vazdušni pištolj",
+            "medalja" : 2
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("612bb6ea70b639a7905fa948"),
+    "ime" : "Pang Wei",
+    "sport" : "streljaštvo",
+    "zemlja" : "Kina",
+    "discipline" : [ 
+        {
+            "naziv" : "10m vazdušni pištolj",
+            "medalja" : 3
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 1
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("612bb6ea70b639a7905fa94b"),
+    "ime" : "Reitz Christian",
+    "sport" : "streljaštvo",
+    "zemlja" : "Nemačka",
+    "discipline" : [ 
+        {
+            "naziv" : "10m vazdušni pištolj",
+            "medalja" : " "
+        }
+    ],
+    "pol" : "m",
+    "osvojena_medalja" : 0
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("61352cd578482a1a04b001e8"),
+    "ime" : "Milena Rasic",
+    "sport" : "odbojka",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "z",
+    "osvojena_medalja" : 1
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("61352d5378482a1a04b001e9"),
+    "ime" : "Tijana Boskovic",
+    "sport" : "odbojka",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "z",
+    "osvojena_medalja" : 1
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("613532bb4fbfae2bfc3ce837"),
+    "ime" : "Popovic Mina",
+    "sport" : "odbojka",
+    "zemlja" : "Srbija",
+    "discipline" : [],
+    "pol" : "z",
+    "osvojena_medalja" : 1
+}

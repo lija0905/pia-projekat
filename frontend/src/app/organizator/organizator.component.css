@@ -1,0 +1,86 @@
+.naziv {
+    background-color: rgb(221, 218, 21);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0 10px 20px;
+    
+}
+
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.content > td {
+    width: 25%;
+}
+
+.header {
+    color: white;
+    background-color: rgb(156, 21, 21);
+}
+
+th {
+    padding: 10px 0 10px 0;
+    border-style: solid;
+    border-width: 0 1px 0 1px;
+    width: 25%;
+}
+
+
+.vrste {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgba(150, 150, 150, 0.753);
+}
+
+.vrste-1, .vrste-2, .vrste-3 {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgba(150, 150, 150, 0.753);
+}
+
+.dodaj {
+    background-color: rgb(54, 155, 223);
+    color: white;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    font-size: 18px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+.dodavanje {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.tabela {
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    height: 400px;
+}
+
+.pozadina {
+    background-image:  url("../../assets/bkg.jpg");
+}
+
+.dugme {
+    text-align: center;
+    border-style: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(54, 155, 223);
+}
+
+.dugme-2{
+    background-color: rgb(54, 155, 223);
+    border-style: none;
+    color: white;
+    font-size: 18px;
+}

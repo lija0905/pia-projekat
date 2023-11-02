@@ -1,0 +1,153 @@
+<div class='container-fluid'>
+    <div class='row'>
+         <div class='col-sm-12 pozadina'></div>
+    </div>
+   <div class='row'>
+        <div class='col-sm-6 naziv-levo'>
+         Učesnici
+        </div>
+        <div class='col-sm-6 naziv-desno'>
+         Osvojene medalje
+        </div>
+    </div>
+    <div class='row tabele'>
+        <div class='col-sm-6' style="height: 600px;">
+            <table *ngIf='trenutneZemlje!=null' class='tabela-levo'>
+                <tr class='header-ucesnici'>
+                    <th></th>
+                    <th>Zemlja</th>
+                    <th>Broj učesnika</th>
+                </tr>
+                <tr *ngFor='let m of trenutneZemlje' class='levo-kolone'>
+                    <td *ngIf='m!=null' class='zas'><img class='zastava' src='/assets/{{m.zastava}}'></td>
+                    <td *ngIf='m!=null' style="text-align: left; width: 33%">{{m.zemlja}}</td>
+                    <td *ngIf='m!=null' style="text-align: left; width: 33%">{{m.br_ucesnika}}</td>
+                    <td *ngIf='m==null'><span style="opacity: 0;">.</span></td>
+                    <td *ngIf='m==null'><span style="opacity: 0;">.</span></td>
+                    <td *ngIf='m==null'><span style="opacity: 0;">.</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class='col-sm-6' style="height: 600px;">
+            <table *ngIf='trenutneMedalje!=null' class='tabela-desno'>
+               <tr class='header-medalje'>
+                    <th>Rang</th>
+                    <th>Zemlja</th>
+                    <th>Zlatne</th>
+                    <th>Srebrne </th>
+                    <th>Bronzane</th>
+                    <th>Ukupno</th>
+                </tr> 
+                <tr *ngFor='let m of trenutneMedalje' class='desno-kolone'>
+                    <td *ngIf='m!=null'>{{m.rang}}</td>
+                    <td *ngIf='m!=null'>{{m.zemlja}}</td>
+                    <td *ngIf='m!=null'>{{m.br_zlatnih}}</td>
+                    <td *ngIf='m!=null'>{{m.br_srebrnih}}</td>
+                    <td *ngIf='m!=null'>{{m.br_bronzanih}}</td>
+                    <td *ngIf='m!=null'>{{m.ukupno}}</td>
+                    
+                    <td *ngIf='m==null'><span style="opacity: 0;">.</span></td>
+                    <td *ngIf='m==null'><span style="opacity: 0;">.</span></td>
+                    <td *ngIf='m==null'><span style="opacity: 0;">.</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-6' style="padding: 10px 0 10px 0">
+         <button (click)='desnoZemlje()' class='dugme' style="float: right;"> > </button>
+         <button (click)='levoZemlje()' class='dugme' style="float: right;"> < </button>
+        </div>
+        <div class='col-sm-6' style="padding: 10px 0 10px 0">
+            <button (click)='desnoMedalje()' class='dugme' style="float: right;"> > </button>
+            <button (click)='levoMedalje()' class='dugme' style="float: right;"> < </button>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-12'>
+            <table class='pretraga'>
+                <tr>
+                    <td> <input type="text" name='ime' placeholder="Ime i Prezime sportiste" [(ngModel)]='ime' class='form-control'></td>
+                    <td>
+                    <select name='zemlja' [(ngModel)]='zemlja' class='form-control'>
+                        <option value=''>Izaberite zemlju</option>
+                        <option *ngFor='let s of sveMedalje'>{{s.zemlja}}</option>
+                    </select>
+                    </td>
+                    <td>
+                        <select name='sport' [(ngModel)]='sport' (change)='dohvatiMojeDiscipline()' class='form-control'>
+                            <option value=''>Izaberite sport</option>
+                            <option *ngFor='let s of sportovi' value='{{s.sport}}'>{{s.sport}}</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name='disciplina' [(ngModel)]='disciplina' *ngIf='!(this.sport!=null && this.sport!="")' class='form-control'>
+                            <option value=''>Izaberite disciplinu</option>
+                            <option *ngFor='let d of discipline'>{{d.naziv}}</option>
+                        </select>
+                        <select name='disciplina' [(ngModel)]='disciplina' *ngIf='!(this.sport==null || this.sport=="")' class='form-control'>
+                            <option value=''>Izaberite disciplinu</option>
+                            <option *ngFor='let d of mojeDiscipline'>{{d.naziv}}</option>
+                        </select>
+                    </td>
+                    <td>Pol:
+                        <input type="radio" name='pol' value='m' [(ngModel)]='pol'>M 
+                        <input type="radio" name='pol' value='z' [(ngModel)]='pol'>Z
+                    </td>
+                    <td>
+                        samo osvajaci medalja: <input type="checkbox" name='medalja' [(ngModel)]='osvojio'>
+                    </td>
+                    <td>
+                        <select name='brojPrikaz' [(ngModel)]='brojPrikaz' (change)='promeniBrojSportista()' class='form-control'>
+                            <option value=10>10</option>
+                            <option value=20>20</option>
+                            <option value=50>50</option>
+                            <option value=100>100</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button (click)='pretrazi()' class='pretrazi' class='btn btn-primary'>Filtriraj</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-12' style="padding-top: 10px;">
+            <table class='sportisti'>
+                <tr class='header'>
+                    <th>Ime i prezime:</th>
+                    <th>Sport:</th>
+                    <th>Discipline:</th>
+                    <th>Osvojene medalje</th>
+                </tr>
+                <tr *ngFor='let s of trenutniSportisti' class='lista-sportisti'>
+                    <td *ngIf='s!=null'>{{s.ime}}</td>
+                    <td *ngIf='s!=null'>{{s.sport}}</td>
+                    <td style="display: flex; justify-content: center;" *ngIf='s!=null'>
+                        <table>
+                            <tr *ngFor='let d of s.discipline' class='discipline'>
+                                <td>{{d.naziv}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td *ngIf='s!=null'>
+                        <span *ngIf='s.discipline.length==0'>{{s.osvojena_medalja}}</span>
+                        <table *ngIf='s.discipline.length > 0'>
+                            <tr *ngFor='let d of s.discipline'>
+                                <td > {{d.medalja}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div class='row'>
+        <div class='col-sm-12'>
+            <button (click)='desnoSportisti()' class='dugme' style="float: right;"> > </button>
+            <button (click)='levoSportisti()' class='dugme' style="float: right;"> < </button>
+        </div>
+    </div>
+</div>

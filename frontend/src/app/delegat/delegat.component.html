@@ -1,0 +1,45 @@
+<div class='container-fluid pozadina'> 
+    <div class='row'>
+        <div class='col-sm-12 naziv'>Dobrodosli!- {{delegat.ime}} {{delegat.prezime}}</div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-12 red'>
+            <table class='tabela'>
+                <tr class='header'>
+                    <th>Sport: </th>
+                    <th>Disciplina: </th>
+                    <th>Pol: </th>
+                    <th>Vrsta: </th>
+                    <th>Datum Pocetka: </th>
+                    <th>Datum Kraja: </th>
+                    <th>Lokacija: </th>
+                    <th >Ucesnici: </th>
+                </tr>
+                <tr *ngFor='let t of mojaTakmicenja'>
+                    <td>
+                        <a *ngIf='t.disciplina!=""'routerLink='/raspored/{{t.sport}}/{{t.disciplina}}/{{t.pol}}/{{t.vrsta}}'>{{t.sport}}</a>
+                        <a *ngIf='t.disciplina==""'routerLink='/ekipni/{{t.sport}}/{{t.pol}}/{{t.vrsta}}'>{{t.sport}}</a>
+                    </td>
+                    <td>{{t.disciplina}}</td>
+                    <td>{{t.pol}}</td>
+                    <td>{{t.vrsta}}</td>
+                    <td>{{t.datum_pocetka}}</td>
+                    <td>{{t.datum_kraja}}</td>
+                    <td>{{t.lokacija}}</td>
+                    <td style="display: flex; justify-content: center;">
+                        <table>
+                            <tr *ngFor='let u of t.ucesnici'>
+                                <td >{{u}} 
+                                <span *ngIf='u==t.prvi'> I</span>
+                                <span *ngIf='u==t.drugi'> II</span>
+                                <span *ngIf='u==t.treci'> III</span>
+                            </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+<div class='container-fluid'>
+    <!--<div class="row">
+        <div class='col-sm-12 pozadina'></div>
+    </div>-->
+    <div class='row pozadina'>
+        <div class='col-sm-2'></div>
+        <div class='col-sm-8 prijava'>
+            <table class='tabela_1'>
+                <tr>
+                    <td class="naziv">Promeni lozinku</td>
+                </tr>
+                <tr>
+                    <td>Korisnicko ime: </td>
+                </tr>
+                <tr>
+                    <td><input class='in' type='text' name='korime' [(ngModel)]='korime' placeholder="Unesite vase korisnicko ime"></td>
+                </tr>
+                <tr>
+                    <td>Lozinka: </td>
+                </tr>
+                <tr>
+                    <td><input class='in' type='password' name='lozinka' [(ngModel)]='lozinka' placeholder="Unesite vasu lozinku"></td>
+                </tr>
+                <tr>
+                    <td>Nova lozinka: </td>
+                </tr>
+                <tr>
+                    <td><input class='in' type='password' name='nova' [(ngModel)]='nova' placeholder="Unesite novu lozinku"></td>
+                </tr>
+                <tr>
+                    <td>Potvrda lozinke: </td>
+                </tr>
+                <tr>
+                    <td><input class='in' type='password' name='potvrda' [(ngModel)]='potvrda' placeholder="Potvrdite novu lozinku"></td>
+                </tr>
+                <tr>
+                    <td style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+                        <button class='dugme' (click)='promeniLozinku()'>PROMENI LOZINKU</button>
+                    </td>
+                </tr>
+                <tr *ngIf='poruka!=null'>
+                    <td class='poruka'> 
+                        <ul>
+                            <li>{{poruka}}</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class='col-sm-2'></div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<div class='container-fluid pozadina'>
+    <div class='row'>
+        <div class='col-sm-12 naziv'>Ostvareni olimpijski rekordi</div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-12 red'>
+            <table class='tabela'>
+                <tr class='header'>
+                    <th>Rekorder: </th>
+                    <th>Rekord: </th>
+                    <th>Zemlja: </th>
+                    <th>Disciplina: </th>
+                    <th>Sport: </th>
+                    <th>Mesto: </th>
+                    <th>Godina: </th>
+                    <th>Pol: </th>
+                 
+                </tr>
+                <tr *ngFor='let r of rekordi'>
+                    <td>{{r.rekorder}}</td>
+                    <td>{{r.rekord}}</td>
+                    <td>{{r.zemlja}}</td>
+                    <td>{{r.disciplina}}</td>
+                    <td>{{r.sport}}</td>
+                    <td>{{r.mesto}}</td>
+                    <td>{{r.godina}}</td>
+                    <td>{{r.pol}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>

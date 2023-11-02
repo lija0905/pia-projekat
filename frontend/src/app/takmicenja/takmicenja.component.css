@@ -1,0 +1,53 @@
+.naziv {
+    background-color: rgb(221, 218, 21);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0 10px 20px;
+    
+}
+
+.pozadina {
+    background-image:  url("../../assets/bkg.jpg");
+    height: 1000px;
+}
+
+.forma {
+    background-color: rgb(255,255,255,0.9);
+    padding: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.red{
+    padding-top: 10px;
+    background-color: rgb(255,255,255,0.77);
+    height: 700px;
+}
+
+.tabela {
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    color: white;
+    background-color: rgb(156, 21, 21);
+}
+
+.tabela > th{
+    border-width: 0 1px 0 1px;
+    width: 12.5%;
+    padding: 10px 0 10px 0;
+    border-style: solid;
+}
+
+.tabela > td{
+    border-width: 0 0 1px 0;
+    border-color: rgba(153, 153, 150, 0.616);
+    width: 12.5%;
+    padding: 10px 0 10px 0;
+    border-style: solid;
+}

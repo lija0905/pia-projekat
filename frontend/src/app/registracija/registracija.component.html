@@ -1,0 +1,73 @@
+<div class='container-fluid registracija'>
+    <div class='row'>
+    <div class='col-sm-2'></div>
+    <div class='col-sm-8 tabela'>
+    <table class='tabela_1'>
+        <tr>
+           <td colspan='2' class='registracija-naziv'>Registracija</td> 
+        </tr>
+        <tr>
+            <td>Korisnicko ime: </td>
+            <td><input class='in' type='text' name='korime' [(ngModel)]='korime' placeholder="Unesite Vase korisnicko ime"></td>
+           
+        </tr>
+        <tr>
+            <td>Lozinka: </td>
+            <td><input class='in' type='password' name='lozinka' [(ngModel)]='lozinka'  placeholder="Unesite Vasu lozinku"></td>
+    
+        </tr>
+        <tr>
+            <td>Potvrda lozinke: </td>
+            <td><input class='in' type='password' name='potvrda' [(ngModel)]='potvrda' placeholder="Potvrdite Vasu lozinku"></td>
+        </tr>
+        <tr>
+            <td>Ime: </td>
+            <td><input class='in' type='text' name='ime' [(ngModel)]='ime' placeholder="Unesti Vase ime"></td>
+           
+        </tr>
+        <tr>
+            <td>Prezime: </td>
+            <td><input class='in' type='text' name='prezime' [(ngModel)]='prezime' placeholder="Unesite Vase prezime"></td>
+          
+        </tr>
+        <tr>
+            <td>Drzava: </td>
+            <td>
+                <select name='zemlja' [(ngModel)]='zemlja'>
+                    <option value=''>Izaberite drzavu</option>
+                    <option *ngFor='let z of zemlje'>{{z.zemlja}}</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>E-mail: </td>
+            <td><input class='in' type='text' name='email' [(ngModel)]='email' placeholder="Unesite Vasu e-mail adresu"></td>
+        </tr>
+        <tr>
+            <td>Pozicija:</td>
+            <td>
+            <select name='tip' [(ngModel)]='tip'>
+              <option value=''>Izaberite poziciju</option>
+              <option>delegat</option>
+              <option>vodja delegacije</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <button class='dugme' (click)='registrujSe()'>PRIJAVITE SE</button>
+            </td>
+        </tr>
+        <tr *ngIf='poruka!=null'>
+            <td class='poruka'> 
+                <ul>
+                    <li>{{poruka}}</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div class='col-sm-2'></div>
+    </div>
+    </div>
+    

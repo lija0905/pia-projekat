@@ -1,0 +1,25 @@
+/* 1 */
+{
+    "_id" : ObjectId("611c34f664f08435bbe46e59"),
+    "godina" : 2012,
+    "mesto" : "London",
+    "sport" : "atletika",
+    "disciplina" : "100m trcanje",
+    "rekorder" : "Usain Bolt",
+    "rekord" : "00:00:09,63",
+    "zemlja" : "Jamajka",
+    "pol" : "muski"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6134f3a1bf6abc656cda10ef"),
+    "godina" : 2020,
+    "mesto" : "Tokyo",
+    "sport" : "atletika",
+    "disciplina" : "skok u vis",
+    "rekorder" : "Lasitskene Mariya",
+    "rekord" : "02,07",
+    "zemlja" : "ROC",
+    "pol" : "zenski"
+}

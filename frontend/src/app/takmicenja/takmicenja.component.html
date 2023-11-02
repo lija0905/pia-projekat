@@ -1,0 +1,174 @@
+<div class='container-fluid pozadina'>
+    <div class='row'>
+        <div class='col-sm-12 naziv'>Registracija i pregled takmicenja</div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-2'></div>
+        <div class='col-sm-8 forma'>
+
+            <table>
+                <tr>
+                    <td>
+                        <div class='form-group'>
+                            <label for='sport'>Sport</label>
+                            <select [(ngModel)]='sport' name='sport' class='form-control' (change)='uzmiDiscipline()'>
+                                <option value=""></option>
+                                <option *ngFor='let s of sviSportovi'>{{s.sport}}</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='form-group'>
+                            <label for='disciplina'>Disciplina</label>
+                            <select [(ngModel)]='disciplina' name='disciplina' class='form-control'>
+                                <option value=''></option>
+                                <option *ngFor='let d of mojeDiscipline'>{{d.naziv}}</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class='form-group'>
+                            <label for='datum_pocetka'>Datum pocetka</label>
+                            <input type='datetime' name='datum_pocetka' [(ngModel)]='datum_pocetka' class="form-control"
+                                placeholder="Unesite datum pocetka takmicenja">
+                        </div>
+                    </td>
+                    <td>
+                        <div class='form-group'>
+                            <label for='datum_kraja'>Datum kraja</label>
+                            <input type='datetime' name='datum_kraja' [(ngModel)]='datum_kraja' class="form-control"
+                                placeholder="Unesite datum kraja takmicenja">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class='form-group'>
+                            <label for='vrsta'>Vrsta</label>
+                            <select [(ngModel)]='vrsta' name='vrsta' class='form-control'>
+                                <option>individualni</option>
+                                <option>ekipni</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='form-group'>
+                            <label for='pol'>Pol</label>
+                            <select [(ngModel)]='pol' name='pol' class='form-control' (change)='uzmiSportiste()'>
+                                <option>muski</option>
+                                <option>zenski</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class='form-group'>
+                            <label for='lokacija'>Lokacija</label>
+                            <input name='lokacija' [(ngModel)]='lokacija' class='form-control'
+                                placeholder="Unesite lokaciju takmicenja">
+                        </div>
+                    </td>
+                    <td>
+                        <div class='form-group'>
+                            <label for='br_takmicara'>Broj takmicara/ekipa</label>
+                            <input name='br_takmicara' [(ngModel)]='br_takmicara' class='form-control'
+                                placeholder="Unesite broj takmicara ili ekipa ukoliko je ekipni sport">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class='form-group'>
+                            <label for='mera'>Mera - (ukoliko je takmicenje individualno)</label>
+                            <select [(ngModel)]='mera' name='mera' class='form-control' *ngIf='vrsta=="ekipni"'
+                                disabled>
+                                <option value=''></option>
+                                <option>CC:MM:SS,TT</option>
+                                <option>MM,CM</option>
+                            </select>
+                            <select [(ngModel)]='mera' name='mera' class='form-control' *ngIf='vrsta!="ekipni"'>
+                                <option value=''></option>
+                                <option>CC:MM:SS,TT</option>
+                                <option>MM,CM</option>
+                                <option>krugovi</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='form-group'>
+                            <label for='br_pokusaja'>Broj pokusaja - (ukoliko je takmicenje individualno)</label>
+                            <input name='br_pokusaja' [(ngModel)]='br_pokusaja' class='form-control'
+                                placeholder="Unesite broj pokusaja/krugova" *ngIf='vrsta=="ekipni"' disabled>
+                            <input name='br_pokusaja' [(ngModel)]='br_pokusaja' class='form-control'
+                                placeholder="Unesite broj pokusaja/krugova" *ngIf='vrsta!="ekipni"'>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class='from-group' *ngIf='vrsta!="ekipni"'>
+                            <label for='takmicari'>Prijavljeni takmicari:</label>
+                            <select [(ngModel)]='takmicari' name='takmicari' class='form-control' multiple>
+                                <option value=''></option>
+                                <option *ngFor='let t of prijavljeniSportisti'>{{t.ime}}-{{t.zemlja}}</option>
+                            </select>
+                        </div>
+                        <div class='from-group' *ngIf='vrsta=="ekipni"'>
+                            <label for='takmicari'>Prijavljeni takmicari:</label>
+                            <select [(ngModel)]='takmicari' name='takmicari' class='form-control' multiple>
+                                <option value=''></option>
+                                <option *ngFor='let t of prijavljeneEkipe'>{{t}}</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='form-group'>
+                            <label for='delegati'>Delegati:</label>
+                            <select [(ngModel)]='mojiDelegati' name='delegati' class='form-control' multiple>
+                                <option value=''></option>
+                                <option *ngFor='let d of delegati'
+                                    value='{{d.korime}}-{{d.ime}} {{d.prezime}}-{{d.drzava}}'><span
+                                        *ngIf='d.prikazi==true'>{{d.ime}} {{d.prezime}}</span></option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <button class='btn btn-primary' (click)='dodaj()'>Dodaj takmicenje</button></td>
+                </tr>
+            </table>
+
+          
+        </div>
+        <div class='col-sm-2'></div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-12 red'>
+            <table class='tabela'>
+                <tr class='header'>
+                    <th>Sport: </th>
+                    <th>Disciplina: </th>
+                    <th>Datum pocetka: </th>
+                    <th>Datum kraja: </th>
+                    <th>Vrsta: </th>
+                    <th>Pol: </th>
+                    <th>Lokacija: </th>
+                 
+                </tr>
+                <tr *ngFor='let t of takmicenja'>
+                    <td>{{t.sport}}</td>
+                    <td>{{t.disciplina}}</td>
+                    <td>{{t.datum_pocetka}}</td>
+                    <td>{{t.datum_kraja}}</td>
+                    <td>{{t.vrsta}}</td>
+                    <td>{{t.pol}}</td>
+                    <td>{{t.lokacija}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

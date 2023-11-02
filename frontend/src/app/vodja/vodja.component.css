@@ -1,0 +1,57 @@
+.naziv {
+    background-color: rgb(221, 218, 21);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0 10px 20px;
+    
+}
+
+
+.pozadina {
+    background-image:  url("../../assets/bkg.jpg");
+    height: 1000px;
+}
+
+
+.dodavanje {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.prijava-header{
+    background-color: #007bff;
+    width: 80%;
+    color: white;
+    padding: 5px 0 5px 5px;
+}
+
+.navigacija {
+    background-color: rgb(156, 21, 21);
+    color: white;
+    width: 50%;
+    height: 50px;
+    padding: 10px 0 0 15px;
+}
+
+.tabela {
+    width: 50%;
+    text-align: center;
+}
+
+td {
+    padding: 10px 0 10px 0;
+}
+
+.col-sm-8 {
+    background-color: rgb(255,255,255, 0.95);
+}
+
+
+.ukupan-broj-takmicara {
+    background-color: #3d7c37;
+    width: 50%;
+    padding: 5px 0 5px 5px;
+    color:white;
+}

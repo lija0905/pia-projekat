@@ -1,0 +1,118 @@
+/* 1 */
+{
+    "_id" : ObjectId("612ab10c01cbf720a431c4e9"),
+    "sport" : "atletika",
+    "disciplina" : "skok u vis",
+    "datum_pocetka" : "2021-08-05",
+    "datum_kraja" : "2021-08-07",
+    "ucesnici" : [ 
+        "Lasitskene Mariya-ROC", 
+        "McDermott Nicola-Australija", 
+        "Manuchikh Yaroslava-Ukrajina", 
+        "Gerashchenko Iryna-Ukrajina"
+    ],
+    "vrsta" : "individualni",
+    "pol" : "zenski",
+    "lokacija" : "Olimpijski stadion - Skok u vis A",
+    "delegati" : [ 
+        "laki1901-Lazar Savic-Japan"
+    ],
+    "mera" : "MM,CM",
+    "br_pokusaja" : 3,
+    "br_takmicara" : 8,
+    "prvi" : "Lasitskene Mariya-ROC",
+    "drugi" : "McDermott Nicola-Australija",
+    "treci" : "Manuchikh Yaroslava-Ukrajina"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("612ab18f01cbf720a431c4ea"),
+    "sport" : "atletika",
+    "disciplina" : "100m trcanje",
+    "datum_pocetka" : "2021-07-31",
+    "datum_kraja" : "2021-08-01",
+    "ucesnici" : [ 
+        "Lamont Marcell Jacobs-Italija", 
+        "Fred Kerley-SAD", 
+        "Andre de Grasse-Kanada", 
+        "Akani Simbine-Juzna Afrika", 
+        "Ronnie Baker-SAD", 
+        "Enoch Adegoke-Nigerija", 
+        "Zharnel Hughes-Velika Britanija"
+    ],
+    "vrsta" : "individualni",
+    "pol" : "muski",
+    "lokacija" : "Olimpijski stadion - Traka",
+    "delegati" : [ 
+        "dara0207-Darija Vidakovic-Španija"
+    ],
+    "mera" : "CC:MM:SS,TT",
+    "br_pokusaja" : 1,
+    "br_takmicara" : 8,
+    "prvi" : "Lamont Marcell Jacobs-Italija",
+    "drugi" : "Fred Kerley-SAD",
+    "treci" : "Andre de Grasse-Kanada"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("612ab41d01cbf720a431c4eb"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "datum_pocetka" : "2021-07-25",
+    "datum_kraja" : "2021-08-08",
+    "ucesnici" : [ 
+        "Srbija", 
+        "Španija", 
+        "Madjarska", 
+        "Hrvatska", 
+        "Grčka", 
+        "Japan", 
+        "SAD", 
+        "Kina", 
+        "Australija", 
+        "Italija", 
+        "Južna Afrika", 
+        "Kanada"
+    ],
+    "vrsta" : "ekipni",
+    "pol" : "muski",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "delegati" : [ 
+        "dara0207-Darija Vidakovic-Španija"
+    ],
+    "mera" : null,
+    "br_pokusaja" : null,
+    "br_takmicara" : 12,
+    "prvi" : "Srbija",
+    "drugi" : "Španija",
+    "treci" : "Grčka"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("612bb7924d93e831207b1d9f"),
+    "sport" : "streljaštvo",
+    "disciplina" : "10m vazdušni pištolj",
+    "datum_pocetka" : "2021-07-23",
+    "datum_kraja" : "2021-07-24",
+    "ucesnici" : [ 
+        "Foroughi Javad-Iran", 
+        "Mikec Damir-Srbija", 
+        "Pang Wei-Kina", 
+        "Reitz Christian-Nemačka"
+    ],
+    "vrsta" : "individualni",
+    "pol" : "muski",
+    "lokacija" : "Asaka ",
+    "delegati" : [ 
+        "laki1901-Lazar Savic-Japan"
+    ],
+    "mera" : "krugovi",
+    "br_pokusaja" : 6,
+    "br_takmicara" : 8,
+    "prvi" : "Foroughi Javad-Iran",
+    "drugi" : "Mikec Damir-Srbija",
+    "treci" : "Pang Wei-Kina"
+}

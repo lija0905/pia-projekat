@@ -1,0 +1,78 @@
+<div class='container-fluid pozadina'>
+    <div class='row'>
+        <div class='col-sm-12 naziv'>Sportovi i discipline Olimpijskih igara u Tokiju 2020/2021</div>
+    </div>
+    <div class='row' style="background-color: rgba(255, 255, 255, 0.88);">
+        <div class='col-sm-8' style="padding-top: 10px;">
+            <table class='content'>
+                <tr class='header'>
+                    <th>Zemlja:</th>
+                    <th>Discipline: </th>
+                    <th>Vrsta:</th>
+                    <th>Broj igrača:</th>
+                </tr>
+                <tr *ngFor='let s of sportovi' class='vrste'>
+                    <td>{{s.sport}}</td>
+                    <td *ngIf='s.disciplina!=null'>
+                        <table class='content'>
+                            <tr *ngFor='let d of s.disciplina' class='vrste-1'>
+                                <td>{{d.naziv}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td *ngIf='s.disciplina==null'>/</td>
+                    <td *ngIf='s.vrsta=="ekipni"'>{{s.vrsta}}</td>
+                    <td *ngIf='s.vrsta==null'>
+                        <table class='content'>
+                            <tr *ngFor='let d of s.disciplina' class='vrste-2'>
+                                <td>{{d.vrsta}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td *ngIf='s.vrsta=="ekipni"'>{{s.broj_igraca}}</td>
+                    <td  *ngIf='s.vrsta==null'>
+                        <table class='content'>
+                            <tr *ngFor='let d of s.disciplina' class='vrste-3'>
+                                <td *ngIf='d.broj_igraca!=null'>{{d.broj_igraca}}</td>
+                                <td *ngIf='d.broj_igraca==null'>/</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class='col-sm-4 dodavanje'>
+            <table class='tabela'>
+                <tr>
+                    <td colspan="2" class='dodaj'>Dodaj sport i/ili disciplinu</td>
+                </tr>
+                <tr>
+                    <td>Naziv sporta:</td>
+                    <td><input type='text' name='sport' [(ngModel)]='sport' placeholder="Unesti naziv sporta"></td>
+                </tr>
+                <tr>
+                    <td>Naziv discipline: </td>
+                    <td><input type='text' name='disciplina' [(ngModel)]='disciplina' placeholder="Unesite naziv discipline"></td>
+                </tr>
+                <tr>
+                    <td>Ekipni/Individualni</td>
+                    <td>
+                        <select [(ngModel)]='vrsta'>
+                            <option>ekipni</option>
+                            <option>individualni</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Broj igrača: </td>
+                    <td *ngIf='vrsta=="individualni"'><input disabled='true' type='text'name='broj' [(ngModel)]='igraci' placeholder="Unesite broj igraca ukoliko je ekipni sport"></td>
+                    <td *ngIf='vrsta!="individualni"'><input ype='text'name='broj' [(ngModel)]='igraci' placeholder="Unesite broj igraca ukoliko je ekipni sport"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="dugme" ><button (click)='dodaj()' class='dugme-2'>Dodaj</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

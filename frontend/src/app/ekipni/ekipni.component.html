@@ -1,0 +1,82 @@
+<div class="container-fluid pozadina">
+    <div class='row'>
+        <div class='col-sm-12 naziv'>{{sport}} - {{pol}}</div>
+    </div>
+    <div class='row'>
+    <div class='col-sm-9 red'>
+        <table class='tabela'>
+            <tr class='header'>
+                <th>Datum pocetka</th>
+                <th>Datum kraja</th>
+                <th>Lokacija</th>
+                <th>Ucesnici</th>
+            </tr>
+            <tr>
+                <td>{{mojeTakmicenje.datum_pocetka}}</td>
+                <td>{{mojeTakmicenje.datum_kraja}}</td>
+                <td>{{mojeTakmicenje.lokacija}}</td>
+                <td>
+                    <select multiple>
+                        <option *ngFor='let u of mojeTakmicenje.ucesnici'>{{u}}</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class='col-sm-3' style="display:flex; justify-content:center">
+        <div style="padding: 50px;">
+            <button class='btn btn-primary' *ngIf='faza1==false' (click)='kreirajRaspored()'>Napravi Grupe</button>
+            <button class='btn btn-primary' *ngIf='faza2==false'(click)='pokreniCetvrtfinale()'>Napravi Cetvrtfinale</button>
+            <button class='btn btn-primary' *ngIf='faza3==false'(click)='pokreniPolufinale()'>Napravi Polufinale</button>
+            <button class='btn btn-primary' *ngIf='faza4==false'(click)='pokreniFinale()'>Napravi Finale</button>
+            <button class='btn btn-primary' *ngIf='!(faza5==false || zavrseno==true)'(click)='krajTakmicenja()'>Kraj takmicenja</button>
+            <button class='btn btn-primary' *ngIf='!(zavrseno==false || faza5==false)' disabled (click)='krajTakmicenja()'>Kraj takmicenja</button>
+        </div>
+
+    </div>
+    </div>
+    <div class='row red'>
+        <div class='col-sm-12'>
+            <table class='tabela' *ngIf='mojRaspored!=null'>
+            <tr class='header'>
+                <th>Runda</th>
+                <th>TimA</th>
+                <th>TimB</th>
+                <th>Datum</th>
+                <th>Vreme</th>
+                <th>Lokacija</th>
+                <th>Rezultat</th>
+            </tr>
+            <tr *ngFor='let r of mojRaspored'>
+                <td>{{r.runda}}</td>
+                <td>{{r.timA}}</td>
+                <td>{{r.timB}}</td>
+                <td>
+                    <div *ngIf='r.datum==null'class='form-group'>
+                        <input type="text" name='datum' [(ngModel)]='datum' placeholder="YYYY-MM-DD">
+                        <button class="btn btn-primary" (click)='unesiDatum(r)'>Unesi</button>
+                    </div>
+                    <span *ngIf='r.datum!=null'>{{r.datum}}</span>
+                </td>
+                <td>
+                    <div *ngIf='r.vreme==null'class='form-group'>
+                        <input type="text" name='vreme' [(ngModel)]='vreme' placeholder="HH:mm">
+                        <button class="btn btn-primary" (click)='unesiVreme(r)'>Unesi</button>
+                    </div>
+                    <span *ngIf='r.vreme!=null'>{{r.vreme}}</span>
+
+                    <span>{{poruka}}</span>
+                </td>
+                <td>{{r.lokacija}}</td>
+                <td>    
+                    <div *ngIf='r.rezultat==null'class='form-group'>
+                        <input type="text" name='rezultat' [(ngModel)]='rezultat' placeholder="TimA:TimB">
+                        <button class="btn btn-primary" (click)='unesiRezultat(r)'>Unesi</button>
+                    </div>
+                    <span *ngIf='r.rezultat!=null'>{{r.rezultat}}</span>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</div>

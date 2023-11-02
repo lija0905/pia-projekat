@@ -1,0 +1,151 @@
+.logo {
+    float: left;
+    width: 80px;
+    padding-left: 5px;
+}
+
+.navbar {
+    background-color: #46cc4c;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.nav1 {
+ 
+    float: right;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+}
+
+.oi {
+
+    text-decoration: none;
+    color: #f7f0f0;
+    font-size: 20px;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+.oi:hover {
+    background-color: rgb(184, 8, 8);
+}
+
+
+.nav1 > li a {                                               
+     text-decoration: none;
+     color: #f7f0f0;
+     font-size: 18px;
+     padding: 5px 0px 5px 0px;
+ }
+
+ .nav1 > li > a:hover {
+     opacity: 70%;
+ }
+
+ 
+ /* Dropdown Button */
+.dropbtn {
+    background-color: #46cc4c;
+    font-size: 16px;
+    color: white;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .right {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    background-color: white;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-content {display: block;}
+  
+
+ /*.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }*/
+
+ /*
+.navbar {
+    background-color: #46cc4c;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.logo {
+    float:left;
+    width: 70px;
+    height: 100%;
+}
+
+.oi {
+
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f7f0f0;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.oi:hover {
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.login {
+
+    float: right;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #34a3cc;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.right{
+    float: right;
+
+}*/
+
+.border {
+    background-color: #3d7c37;
+    height: 10px;
+}
+

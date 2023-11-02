@@ -1,0 +1,72 @@
+.tabela {
+    background-color: rgb(255, 255, 255, 0.4);
+    font-size: large;
+    font-style: inherit;
+    font-weight: inherit;
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+    height: 700px;
+}
+
+.strane {
+    background-color: #fcefed;
+    width: 500px;
+}
+
+.registracija {
+    background-image: url("../../assets/flags.jpg");
+    height: 700px;
+}
+
+.tabela_1 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.registracija-naziv {
+   border: none;
+   background-color: #46cc4c;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+
+tr {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+td{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.in{
+    border: solid;
+    border-color: rgba(165, 165, 165, 0.3);
+    border-radius: 5px;
+    width: 100%;
+    opacity: 80%;
+}
+
+.dugme {
+    border-radius: 10px;
+    border: none;
+    background-color: #46cc4c;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+

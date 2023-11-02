@@ -1,0 +1,141 @@
+.zastava {
+    height: 50%;
+    width: 50%;
+}
+
+.zas {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.pozadina{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../../assets/bkg.jpg") center center;
+    opacity: 80%;
+    width: 100%;
+    height: 800px;
+}
+
+.naziv-levo {
+    border-style: solid;
+    background-color: rgb(156, 21, 21);
+    border-width: 4px;
+    color: white;
+    border-color: rgb(134, 9, 9);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.naziv-desno {
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(204, 186, 25);
+    background-color: rgb(216, 198, 36);
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-stretch: expanded;
+}
+
+.header-ucesnici {
+    color:  rgb(148, 139, 139);
+
+}
+
+.header-medalje {
+    color: rgb(148,139,139);
+}
+
+.header-ucesnici > th{
+    padding: 15px 0 15px 0;
+
+}
+.tabela-levo {
+    width: 100%;
+    height: 100%;
+    /*text-align: center;*/
+   
+}
+
+.tabela-desno {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.tabele {
+    background-color: rgba(255, 255, 255);
+}
+
+.desno-kolone {
+    border-style: solid;   
+    border-color: rgb(148, 139, 139);
+    border-width: 0 0 1px 0;
+    text-align: center;
+}
+
+.levo-kolone {
+    border-style: solid;
+    border-color: rgb(148, 139, 139);
+    border-width: 0 0 1px 0;
+    text-align: center;
+}
+
+
+.dugme {
+    border: none;
+    font-weight: bold;
+    background-color: rgb(199, 194, 194);
+}
+
+.dugme:hover {
+    background-color: rgba(46, 44, 44, 0.411);
+}
+
+.pretraga{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.pretraga > td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pretrazi {
+    border: none;
+    background-color: white;
+}
+
+
+.sportisti {
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    color: white;
+    background-color: rgb(156, 21, 21);
+}
+
+.header > th {
+    padding: 10px 0 10px 0;
+}
+
+.lista-sportisti > td {
+    padding: 10px 0 10px 0;
+
+}

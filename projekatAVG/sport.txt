@@ -1,0 +1,216 @@
+/* 1 */
+{
+    "_id" : ObjectId("6114282a77712c4bd7974892"),
+    "sport" : "vaterpolo",
+    "disciplina" : [],
+    "vrsta" : "ekipni",
+    "broj_igraca" : "6/13"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61142a7e77712c4bd7974950"),
+    "sport" : "atletika",
+    "disciplina" : [ 
+        {
+            "naziv" : "100m trcanje",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "štafetno trcanje 100",
+            "vrsta" : "ekipni",
+            "broj_igraca" : 4
+        }, 
+        {
+            "naziv" : "200m trcanje",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "400m trcanje",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "štafetno trcanje 400",
+            "vrsta" : "ekipni",
+            "broj_igraca" : 4
+        }, 
+        {
+            "naziv" : "800m trcanje",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "5000m trcanje",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "10000m trcanje",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "skok u vis",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "skok u dalj",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "troskok",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "skok s motkom",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "bacanje kugle",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "bacanje diska",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "bacanje kladiva",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "bacanje koplja",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "maraton",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "20km brzo hodanje",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "50km brzo hodanje",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }
+    ],
+    "vrsta" : null,
+    "broj_igraca" : null
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61142c0e77712c4bd79749e6"),
+    "sport" : "biciklizam",
+    "disciplina" : [ 
+        {
+            "naziv" : "drumska traka 225km",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }
+    ],
+    "vrsta" : null,
+    "broj_igraca" : null
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61142c0e77712c4bd79749ec"),
+    "sport" : "streljaštvo",
+    "disciplina" : [ 
+        {
+            "naziv" : "50m trostav",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "10m vazdušna puška",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "25m malokalib. pištolj",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "10m vazdušni pištolj",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }
+    ],
+    "vrsta" : null,
+    "broj_igraca" : null
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("61142c0e77712c4bd79749ef"),
+    "sport" : "tenis",
+    "disciplina" : [ 
+        {
+            "naziv" : "singl",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "dubl",
+            "vrsta" : "ekipni",
+            "broj_igraca" : 2
+        }
+    ],
+    "vrsta" : null,
+    "broj_igraca" : null
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("61352c7f78482a1a04b001e7"),
+    "sport" : "odbojka",
+    "disciplina" : [],
+    "vrsta" : "ekipni",
+    "broj_igraca" : "5/12"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("61356a07a6b4510f3ccf9cd7"),
+    "sport" : "košarka",
+    "disciplina" : [],
+    "vrsta" : "ekipni",
+    "broj_igraca" : "5/12"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("61356a11a6b4510f3ccf9cd8"),
+    "sport" : "plivanje",
+    "disciplina" : [ 
+        {
+            "naziv" : "100m leptir",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }, 
+        {
+            "naziv" : "200m slobodno",
+            "vrsta" : "individualni",
+            "broj_igraca" : null
+        }
+    ],
+    "vrsta" : null,
+    "broj_igraca" : null
+}

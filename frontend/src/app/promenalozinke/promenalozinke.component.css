@@ -1,0 +1,80 @@
+.prijava {
+    background-color: rgb(255, 255, 255, 0.4);
+    font-size: large;
+    font-style: inherit;
+    font-weight: inherit;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10%;
+    padding-top: 100px;
+    
+
+}
+
+.pozadina {
+    background-image: url("../../assets/flags.jpg");
+    height: 700px;
+}
+
+.strane {
+    background-color: #fcefed;
+    width: 500px;
+}
+
+.tabela_1 {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+tr {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+td{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.in{
+    border: solid;
+    border-color: rgba(165, 165, 165, 0.3);
+    border-radius: 5px;
+    width: 100%;
+    opacity: 80%;
+}
+
+.dugme {
+    border-radius: 10px;
+    border: none;
+    background-color: #46cc4c;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+
+.naziv{
+    background-color:#46cc4c;
+     font-size: 20px; 
+     font-weight: bold;
+     color: white;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+
+.poruka {
+    color: red;
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-start;
+}

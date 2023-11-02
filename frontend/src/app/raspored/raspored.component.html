@@ -1,0 +1,73 @@
+<div class="container-fluid pozadina">
+    <div class='row'>
+        <div class='col-sm-12 naziv'>{{sport}} - {{disciplina}} - {{pol}}</div>
+    </div>
+    <div class='row'>
+    <div class='col-sm-9 red'>
+        <table class='tabela'>
+            <tr class='header'>
+                <th>Datum pocetka</th>
+                <th>Datum kraja</th>
+                <th>Lokacija</th>
+                <th>Vreme</th>
+            </tr>
+            <tr>
+                <td>{{takmicenje.datum_pocetka}}</td>
+                <td>{{takmicenje.datum_kraja}}</td>
+                <td>{{takmicenje.lokacija}}</td>
+                <td *ngIf='mojRaspored!=null'>{{mojRaspored.vreme}}</td>
+                <td *ngIf='mojRaspored==null'></td>
+            </tr>
+           
+        </table>
+    </div>
+    <div class='col-sm-3 vreme-pocetka'>
+        <div class='form-group'>
+            <label for='vreme' class='vreme-labela'>Unesite vreme pocetka</label>
+            <input type='text' name='vreme' [(ngModel)]='vreme' placeholder="HH:MM" class='form-control'>
+        </div>
+       <button *ngIf='zavrseno!=1' class='btn btn-primary' (click)='kreirajRaspored()'>Unesi vreme</button> <!--unesi da kad se unese vreme se disabluje button ili razmisli kao moze da menja -->
+       <button *ngIf='zavrseno==1' disabled class='btn btn-primary' (click)='kreirajRaspored()'>Unesi vreme</button> 
+       <span style="color: red;">{{poruka}}</span>
+    </div>
+    </div>
+    <div class="row red">
+        <div class='col-sm-8'>
+            <table class='tabela'>
+                <tr class='header'>
+                    <th>Ucesnici</th>
+                    <th>Krug</th>
+                    <th>Rezultat</th>
+                </tr>
+                <tr *ngFor='let u of rezultati'>
+                    <td>{{u.ime}}</td>
+                    <td>
+                        <select [(ngModel)]='krug' (change)='parsuj()'>
+                            <option value='{{b}}' *ngFor='let b of brojPokusaja'>
+                                <span>{{b}}. krug</span>
+                            </option>
+                        </select>
+                    </td>
+                    <td>
+                        <input *ngIf='trenutniKrug != krugBroj-1' disabled type='text' class="form-control" name='rezultat' placeholder="{{takmicenje.mera}}" [(ngModel)]='rezultat'>
+                        <input *ngIf='trenutniKrug == krugBroj-1' type='text' class="form-control" name='rezultat' placeholder="{{takmicenje.mera}}" [(ngModel)]='rezultat'>
+                    </td>
+                    <td><button *ngIf='zavrseno!=1' class='btn btn-primary' (click)='unesiRezultat(u)'>Unesi</button>
+                        <button *ngIf='zavrseno==1' disabled class='btn btn-primary' (click)='unesiRezultat(u)'>Unesi</button>
+                    </td>
+                    <td *ngIf='u.rezultat!=null'>
+                        <table>
+                            <tr *ngFor='let r of u.rezultat'>
+                                <td>{{r}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class='col-sm-4'>
+            <button *ngIf='!(krajTakmicenja!=true || zavrseno==1)' class='btn btn-primary' (click)='zavrsiTakmicenje()'>Kraj takmicenja</button>
+            <button *ngIf='zavrseno==1' disabled class='btn btn-primary' (click)='zavrsiTakmicenje()'>Kraj takmicenja</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+.naziv {
+    background-color: rgb(221, 218, 21);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0 10px 20px;
+    
+}
+
+.pozadina {
+    background-image:  url("../../assets/bkg.jpg");
+}
+
+.red{
+    padding-top: 10px;
+    background-color: rgb(255,255,255,0.77);
+}
+
+.tabela {
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    color: white;
+    background-color: rgb(156, 21, 21);
+}
+
+th{
+    border-width: 0 1px 0 1px;
+}
+
+th,td {
+    padding: 10px 0 10px 0;
+    border-style: solid;
+  
+}
+td{
+    border-width: 0 0 1px 0;
+    border-color: rgba(153, 153, 150, 0.616);
+}
+
+
+.vreme-pocetka {
+    padding-top: 10px;
+
+}
+
+.vreme-labela {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}

@@ -1,0 +1,31 @@
+<div class='container-fluid pozadina'>
+    <div class='row'>
+        <div class='col-sm-12 naziv'>Zahtevi za registraciju</div>
+    </div>
+    <div class='row' style="background-color: rgba(255, 255, 255, 0.88);">
+        <div class='col-sm-8' style="padding-top: 10px;">
+            <div class='alert alert-success' *ngIf='poruka!=null'>{{poruka}}</div>
+            <table class='content'>
+                <tr class='header'>
+                    <th>Ime </th>
+                    <th>Prezime </th>
+                    <th>Drzava</th>
+                    <th>Pozicija</th>
+                    <th>Obradi</th>
+                </tr>
+                <tr *ngFor='let z of zahtevi'>
+                    <td>{{z.ime}}</td>
+                    <td>{{z.prezime}}</td>
+                    <td>{{z.drzava}}</td>
+                    <td>{{z.tip}}</td>
+                    <td>
+                        <button class='btn btn-primary' (click)='odobri(z)'>Odobri</button>
+                        <button class='btn btn-danger' (click)='odbij(z)'>Odbij</button>
+                    </td>
+                </tr>
+
+            </table>
+           
+        </div>
+    </div>
+</div>

@@ -1,0 +1,607 @@
+/* 1 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb71"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Srbija",
+    "timB" : "Španija",
+    "datum" : "2021-07-25",
+    "vreme" : "12:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "10:7",
+    "pobednik" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb72"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Srbija",
+    "timB" : "Madjarska",
+    "datum" : "2021-07-27",
+    "vreme" : "17:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "9:8",
+    "pobednik" : 1
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb75"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Španija",
+    "timB" : "Madjarska",
+    "datum" : "2021-07-29",
+    "vreme" : "13:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "10:11",
+    "pobednik" : 2
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb76"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Srbija",
+    "timB" : "Japan",
+    "datum" : "2021-07-31",
+    "vreme" : "10:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "11:5",
+    "pobednik" : 1
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb78"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Španija",
+    "timB" : "Grčka",
+    "datum" : "2021-07-31",
+    "vreme" : "14:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:10",
+    "pobednik" : 2
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb79"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Španija",
+    "timB" : "Japan",
+    "datum" : "2021-07-26",
+    "vreme" : "15:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "9:4",
+    "pobednik" : 1
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb73"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Srbija",
+    "timB" : "Hrvatska",
+    "datum" : "2021-08-01",
+    "vreme" : "08:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:5",
+    "pobednik" : 1
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb74"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Srbija",
+    "timB" : "Grčka",
+    "datum" : "2021-08-02",
+    "vreme" : "08:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:9",
+    "pobednik" : 2
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb77"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Španija",
+    "timB" : "Hrvatska",
+    "datum" : "2021-07-30",
+    "vreme" : "17:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "7:6",
+    "pobednik" : 1
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb7b"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Madjarska",
+    "timB" : "Grčka",
+    "datum" : "2021-08-03",
+    "vreme" : "13:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "10:8",
+    "pobednik" : 1
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb7c"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Madjarska",
+    "timB" : "Japan",
+    "datum" : "2021-08-02",
+    "vreme" : "12:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:9",
+    "pobednik" : 2
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb7a"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Madjarska",
+    "timB" : "Hrvatska",
+    "datum" : "2021-07-25",
+    "vreme" : "14:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:10",
+    "pobednik" : 2
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb7d"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Hrvatska",
+    "timB" : "Grčka",
+    "datum" : "2021-07-30",
+    "vreme" : "13:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:9",
+    "pobednik" : 2
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb7e"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Hrvatska",
+    "timB" : "Japan",
+    "datum" : "2021-08-04",
+    "vreme" : "08:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "10:5",
+    "pobednik" : 1
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb7f"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa A",
+    "timA" : "Grčka",
+    "timB" : "Japan",
+    "datum" : "2021-08-03",
+    "vreme" : "18:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "11:7",
+    "pobednik" : 1
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb80"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "SAD",
+    "timB" : "Kina",
+    "datum" : "2021-07-25",
+    "vreme" : "20:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "12:8",
+    "pobednik" : 1
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb83"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "SAD",
+    "timB" : "Kanada",
+    "datum" : "2021-07-26",
+    "vreme" : "14:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "10:11",
+    "pobednik" : 2
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb81"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "SAD",
+    "timB" : "Australija",
+    "datum" : "2021-07-28",
+    "vreme" : "18:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:10",
+    "pobednik" : 2
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb82"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "SAD",
+    "timB" : "Italija",
+    "datum" : "2021-07-29",
+    "vreme" : "10:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "7:9",
+    "pobednik" : 2
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb85"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "SAD",
+    "timB" : "Južna Afrika",
+    "datum" : "2021-08-01",
+    "vreme" : "10:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:4",
+    "pobednik" : 1
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb86"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Kina",
+    "timB" : "Australija",
+    "datum" : "2021-07-29",
+    "vreme" : "17:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "6:9",
+    "pobednik" : 2
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb87"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Kina",
+    "timB" : "Južna Afrika",
+    "datum" : "2021-08-01",
+    "vreme" : "14:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "7:6",
+    "pobednik" : 1
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb84"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Kina",
+    "timB" : "Italija",
+    "datum" : "2021-08-02",
+    "vreme" : "16:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "5:8",
+    "pobednik" : 2
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb88"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Kina",
+    "timB" : "Kanada",
+    "datum" : "2021-08-04",
+    "vreme" : "12:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "9:7",
+    "pobednik" : 1
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb89"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Australija",
+    "timB" : "Italija",
+    "datum" : "2021-07-25",
+    "vreme" : "8:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "5:8",
+    "pobednik" : 2
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb8a"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Australija",
+    "timB" : "Južna Afrika",
+    "datum" : "2021-07-28",
+    "vreme" : "15:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "7:8",
+    "pobednik" : 2
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb8b"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Australija",
+    "timB" : "Kanada",
+    "datum" : "2021-08-01",
+    "vreme" : "13:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "9:5",
+    "pobednik" : 1
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb8c"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Italija",
+    "timB" : "Južna Afrika",
+    "datum" : "2021-07-27",
+    "vreme" : "10:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "9:7",
+    "pobednik" : 1
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb8d"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Italija",
+    "timB" : "Kanada",
+    "datum" : "2021-07-31",
+    "vreme" : "12:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:10",
+    "pobednik" : 2
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("612d513813f4910364dabb8e"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "grupa B",
+    "timA" : "Južna Afrika",
+    "timB" : "Kanada",
+    "datum" : "2021-08-02",
+    "vreme" : "14:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "7:8",
+    "pobednik" : 2
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("61314cb4c77816359c99c765"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "cetvrtfinale B1+A4",
+    "timA" : "Italija",
+    "timB" : "Hrvatska",
+    "datum" : "2021-08-03",
+    "vreme" : "12:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "11:8",
+    "pobednik" : 1
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("61314cb4c77816359c99c767"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "cetvrtfinale B2+A3",
+    "timA" : "Australija",
+    "timB" : "Španija",
+    "datum" : "2021-08-03",
+    "vreme" : "17:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:10",
+    "pobednik" : 2
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("61314cb4c77816359c99c766"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "cetvrtfinale A2+B3",
+    "timA" : "Grčka",
+    "timB" : "Kanada",
+    "datum" : "2021-08-04",
+    "vreme" : "12:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "7:6",
+    "pobednik" : 1
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("61314cb4c77816359c99c768"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "cetvrtfinale A1+B4",
+    "timA" : "Srbija",
+    "timB" : "SAD",
+    "datum" : "2021-08-04",
+    "vreme" : "10:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "10:9",
+    "pobednik" : 1
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("61314d74c77816359c99c769"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "polufinale (A1+B4)+(B2+A3)",
+    "timA" : "Italija",
+    "timB" : "Španija",
+    "datum" : "2021-08-05",
+    "vreme" : "14:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:11",
+    "pobednik" : 2
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("61314d74c77816359c99c76a"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "polufinale (A4+B1)+(B3+A2)",
+    "timA" : "Grčka",
+    "timB" : "Srbija",
+    "datum" : "2021-08-05",
+    "vreme" : "18:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:11",
+    "pobednik" : 2
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("61314fade41d6d0fa0f70596"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "finale",
+    "timA" : "Španija",
+    "timB" : "Srbija",
+    "datum" : "2021-08-08",
+    "vreme" : "10:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:10",
+    "pobednik" : 2
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("61314fade41d6d0fa0f70597"),
+    "sport" : "vaterpolo",
+    "disciplina" : "",
+    "pol" : "muski",
+    "runda" : "trece mesto",
+    "timA" : "Italija",
+    "timB" : "Grčka",
+    "datum" : "2021-08-07",
+    "vreme" : "10:00",
+    "lokacija" : "Tsatsumi vaterpolo centar",
+    "rezultat" : "8:10",
+    "pobednik" : 2
+}
